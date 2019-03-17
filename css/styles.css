@@ -1,5 +1,15 @@
+
+
 h1{
-  color: #eeeeee;
+  color: #00adb5;
   font-family: Consolas,monaco,monospace;
 
+}
+b{
+  color: #00adb5;
+}
+body{
+  color:#eeeeee;
+  background-color: #393e46;
+  font-family: Consolas,monaco,monospace;
 }
