@@ -1,10 +1,54 @@
+#title{
+  background-color: #00adb5;
+  color: #fff;
+}
 
+.container-fluid{
+  padding: 3% 15%;
+}
+/*Navigation Bar*/
+.navbar{
+  padding-bottom: 4.5rem;
+}
 
+/*brand title*/
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+/*experience*/
+.exp{
+  padding: 1% 10%;
+}
+/*rest of resume until make classes*/
+.bleepers-placholder{
+  padding: 1% 5%;
+
+}
+
+.profile{
+  font-size: 1.5rem;
+
+    padding: 3% 15%;
+
+    align-content: center;
+}
+h1{
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1;
+  font-weight: 900;
+}
+/*
 h1{
   color: #00adb5;
   font-family: Consolas,monaco,monospace;
   text-align: center;
 }
+*/
+
 b{
   color: #00adb5;
 }
@@ -13,3 +57,11 @@ body{
   background-color: #393e46;
   font-family: Consolas,monaco,monospace;
 }
+
+/*Image*/
+.title-image{
+  width: 60%;
+  /*transform: rotate(25deg);*/
+}
+
+/*Cloud*/
