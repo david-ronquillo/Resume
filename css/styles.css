@@ -8,7 +8,7 @@
 }
 /*Navigation Bar*/
 .navbar{
-  padding-bottom: 4.5rem;
+  padding: 0 0 4.5rem;
 }
 
 /*brand title*/
@@ -37,7 +37,7 @@
 }
 h1{
   font-family: "Montserrat-Black", sans-serif;
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 1;
   font-weight: 900;
 }
