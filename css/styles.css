@@ -3,6 +3,31 @@
   color: #fff;
 }
 
+
+.animated{
+        animation-fill-mode: forwards !important;
+        -webkit-animation-fill-mode: forwards !important;
+          }
+
+
+
+.myAnimations{
+    animation-name: bounce, flash, slideInRight;
+    -webkit-animation-name: bounce, flash, slideInRight;
+
+
+
+    /*
+    you can set different proporties to different animations too:
+    1s to bounce
+    2s to flash
+    3s to pulse
+    */
+
+    animation-duration: 1s, 2s, 3s;
+    -webkit-animation-duration: 1s, 2s, 3s;
+}
+
 .container-fluid{
   padding: 3% 15%;
 }
@@ -53,9 +78,42 @@ h1{
 }
 */
 
-b{
+p {
+  animation-duration: 3.5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+b {
+  animation-duration: 4s;
+  animation-name: slideInL;
   color: #00adb5;
 }
+
+@keyframes slideinL {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+
 body{
   color:#eeeeee;
   background-color: #393e46;
